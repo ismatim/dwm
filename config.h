@@ -66,7 +66,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_a,      spawn,          {.v = clipmenucmd} },
 	{ MODKEY,			            XK_w,	   spawn,		   SHCMD("clipmenu") },
-	{ 0,                            XK_Print,  spawn,		   SHCMD("maim -s ~/Pictures/pic-full-$(date '+%y%m%d-%H%M-%S').png") },
+	{ 0,                            XK_Print,  spawn,		   SHCMD("maim -s /tank_data_1/screenshots/pic-full-$(date '+%y%m%d-%H%M-%S').png") },
 	{ MODKEY|ShiftMask,			    XK_o,		spawn,		SHCMD("firefox") },
 	{ MODKEY|ShiftMask,			    XK_r,		spawn,		SHCMD("chrome") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
